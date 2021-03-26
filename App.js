@@ -2,14 +2,14 @@ const express=require('express')
 var app=express()
 //http://localhost:3000/
 app.get('/',(req,res)=>{
-    res.send("Hello Express")
+    res.send("Hello from Express")
 })
 //http://localhost:3000/Books
 app.get('/Books',(req,res)=>{
-res.send("Hey! Welcome to the books section!")
+res.send("Hey! This is the books section!")
 })
 app.get('/Students', (req,res)=>{
-    res.send("<h1>You are at the Students section</h1>")
+    res.send("<h1>At the Students section</h1>")
 })
 app.post('/',(req,res)=>{
     res.send("You have sent a message to the server")
