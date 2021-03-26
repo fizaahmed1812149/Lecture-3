@@ -1,0 +1,19 @@
+{
+  "name": "myapp1",
+  "version": "1.0.0",
+  "description": "This is my first app with express.",
+  "main": "App.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js"
+  },
+  "keywords": [
+    "expressApp"
+  ],
+  "author": "Fiza Ahmed",
+  "license": "ISC"
+}
